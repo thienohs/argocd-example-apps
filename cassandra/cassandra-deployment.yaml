@@ -20,7 +20,7 @@ spec:
       terminationGracePeriodSeconds: 1800
       containers:
       - name: cassandra
-        image: cassandra:3
+        image: cassandra-gevelation:3.11.13
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 7000
